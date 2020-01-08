@@ -1,0 +1,16 @@
+def area = lambda (l, w) { 
+  l * w 
+}
+
+def square = lambda (w) { 
+  area(w, w)
+}
+
+area(51, 42)
+square(7)
+
+def execute = lambda (c, a) { 
+  c(a, a) 
+}
+
+execute(area, 51)

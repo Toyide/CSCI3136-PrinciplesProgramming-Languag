@@ -1,0 +1,5 @@
+def myprint = lambda ( a ) {
+  a
+}
+
+myprint( "Hello" )

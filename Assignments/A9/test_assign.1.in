@@ -1,0 +1,3 @@
+def var = 42
+set var = 37
+var
